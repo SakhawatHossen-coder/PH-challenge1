@@ -137,3 +137,27 @@ ul li:before {
   font-size: 1.5rem;
   padding: 0.5rem;
 }
+/* CTA Scetion  */
+.main_cta {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  margin: 10% 10%;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  /* background-position: center, left bottom; */
+}
+.cta_content {
+  padding: 10rem;
+}
+.cta_content h1,
+button {
+  padding: 1.5rem;
+}
+.cta_content a {
+  padding: 2rem;
+  font-weight: bold;
+}
+.cta_content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--White);
+}
