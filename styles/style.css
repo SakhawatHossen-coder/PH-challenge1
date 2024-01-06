@@ -161,3 +161,59 @@ button {
   font-weight: bold;
   color: var(--White);
 }
+/* FOOTER  */
+footer {
+  background-color: var(--mainColor);
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  color: var(--White);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+.footer_left {
+  padding: 1rem;
+}
+.footer_left h1 {
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+.footer_left p {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.footer_info {
+  padding-top: 2rem;
+}
+.footer_info p {
+  margin: 2rem;
+  padding: 4rem;
+}
+.icons {
+  padding: 3.5rem 0rem;
+}
+.icons img {
+  padding: 0 1rem;
+}
+.footer_right h1 {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+.footer_right input {
+  width: 25rem;
+  height: 5rem;
+  background: none;
+  color: white;
+  padding: 2rem;
+  outline: none;
+}
+.footer_right button {
+  margin-top: 2.5rem;
+  padding: 2rem 5rem;
+}
+.footer_right button a {
+  font-size: 2rem;
+  font-weight: bold;
+}
